@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* css selector  */
+        /* universal selector  */
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing:border-box;
+            /* box-sizing:content-box; */
+        }
+
+        /* 1. element selector  */
+        h1 {
+            color: red;
+            background-color: green;
+        }
+
+        p {
+            font-size: 20px;
+        }
+
+        /* id selector  */
+        #heading2 {
+            color: green;
+        }
+
+        /* class selector  */
+        .feature {
+            color: green;
+        }
+
+        /* attribute selector  */
+        img[alt="rastra_bank"]{
+            width: 200px;
+        }
+
+        .box{
+            height: 250px;
+            width: 250px;
+            border: 4px solid;
+            margin: 30px 0;
+            padding: 20px;
+        }
+
+        /* grouping selector */
+        table, th, td{
+            border: 2px solid;
+            border-collapse: collapse;
+        }
+
+        /* pseudo selector  */
+        button{
+            margin: 30px;
+        }
+        button:hover{
+            cursor: pointer;
+            background-color: lightgreen;
+            border: none;
+            padding: 5px 10px;
+            color: white;
+            border-radius: 10px;
+        }
+
+
+
+    </style>
+</head>
+
+<body>
+
+    <button>Submit</button>
+
+    <table>
+        <thead>
+            <tr>
+                <th>course</th>
+                <th>duration</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>python</td>
+                <td>3 months</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="box">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus harum voluptates, ex, voluptatem, asperiores neque ea laudantium adipisci suscipit quidem cum quaerat ipsam odio soluta quasi deleniti? Ea, illo quis.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus harum voluptates, ex, voluptatem, asperiores neque ea laudantium adipisci suscipit quidem cum quaerat ipsam odio soluta quasi deleniti? Ea, illo quis.
+    </div>
+
+    <h1 id="heading2">चीनले निर्माण कम्पनी नछान्दा चक्रपथ विस्तार अलमलमा</h1>
+
+    <img src="https://assets-cdn.ekantipur.com/uploads/source/news/kantipur/2026/third-party/ring-road-18112026091347-1000x0.jpg"
+        alt="road">
+
+    <p>काठमाडौं — चक्रपथ दोस्रो खण्ड (कलंकी–बसुन्धरा) विस्तारको चर्चा ८ वर्षदेखि चल्दै आए पनि अझै सुरु हुन सकेको छैन ।
+        सडक विभागले पछिल्लो पटक दसैंलगत्तै विस्तार सुरु हुने बताए पनि अहिलेसम्म चीन सरकारबाट निर्माण कम्पनी समेत छनोट
+        हुन सकेको छैन ।
+
+        सुरु–सुरुमा कहिले नेपाल सरकारबाट तयारीको काम समयमै नहुँदा त कहिले चिनियाँ टोली नआउँदा समस्या भएको थियो । अहिले
+        नेपाल सरकारबाट गर्नुपर्ने तयारीको काम सकिए पनि चिनियाँ टोली आएका छैनन् ।
+
+        सडक विभागअन्तर्गत विकास सहायता कार्यान्वयन महाशाखाका प्रमुख अर्जुनप्रसाद अर्याल नेतृत्वको टोली केही समयअघि
+        चक्रपथ विस्तारको डिजाइन फाइनल गर्नेबारे छलफलमा सहभागी हुन चीनसमेत पुगेको थियो । ‘चीनको वाणिज्य मन्त्रालयबाट
+        स्वीकृति भइसकेको बुझिएको छ,’ उनले भने, ‘अब त्यहाँको अर्थ मन्त्रालयबाट स्वीकृत भएपछि निर्माण कम्पनी छनोट
+        प्रक्रिया अघि बढ्ने जानकारी पाएका छौं ।’ उनका अनुसार यो काम बढीमा एक महिनाभित्र टुंगिने र त्यसपछि काम गर्ने
+        चिनियाँ टोली नेपाल आउनेछ ।</p>
+
+    <div>
+        <ul>
+            <li class="feature">सरकारले जलविद्युत् आयोजनालाई कम्तीमा ५० प्रतिशत भौतिक प्रगति भएपछि मात्र आईपीओ निष्कासन
+                गर्न दिने
+                व्यवस्था प्रस्ताव गरेको छ।</li>
+            <li class="feature">प्रस्तावित व्यवस्थाले लगानीकर्ता संरक्षण र आयोजनाको जोखिम घटाउने पक्ष बलियो बनाउने भए
+                पनि सुरुवाती पुँजी
+                जुटाउन कठिन हुने भन्दै प्रवद्र्धक तथा केही लगानीकर्ताले विरोध गरेका छन्।</li>
+            <li>मस्यौदामा भौतिक प्रगतिको स्वतन्त्र प्रमाणीकरण, लागत तथा वित्तीय स्रोतको सुनिश्चितता, जोखिम विवरण र
+                आईपीओबाट प्राप्त रकमको स्पष्ट उपयोग योजना अनिवार्य गर्ने प्रस्ताव गरिएको छ।</li>
+        </ul>
+    </div>
+
+
+
+    <h1 id="heading2">राष्ट्र बैंकको नाफा साढे ८३ अर्ब, सरकारलाई ४२ अर्ब लाभांश दिने</h1>
+    <img src="https://assets-cdn-api.ekantipur.com/thumb.php?src=https://assets-cdn.ekantipur.com/uploads/source/news/kantipur/2026/money-finance/nrbcorporatebuilding-scaled-0482026034115.jpg&w=1001&h=0"
+        alt="rastra_bank">
+
+
+</body>
+
+</html>
